@@ -1,0 +1,328 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Jungle}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "jungle"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Jungle}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "jungle_hills"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Jungle}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "modified_jungle"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Jungle}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "jungle_edge"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Jungle}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "modified_jungle_edge"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Jungle}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "bamboo_jungle"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Jungle}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "bamboo_jungle_hills"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Taiga}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "taiga"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Taiga}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "taiga_hills"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Taiga}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "taiga_mountains"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Taiga}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "giant_tree_taiga"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Taiga}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "giant_tree_taiga_hills"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Taiga}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "giant_spruce_taiga"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Taiga}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "giant_spruce_taiga_hills"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:SnowyTaiga}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "snowy_taiga"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:SnowyTaiga}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "snowy_taiga_hills"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:SnowyTaiga}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "snowy_taiga_mountains"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Forest}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "forest"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Forest}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "wooded_hills"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Forest}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "flower_forest"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Forest}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "birch_forest"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Forest}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "birch_forest_hills"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Forest}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "tall_birch_forest"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Forest}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "tall_birch_hills"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Forest}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "dark_forest"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Forest}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "dark_forest_hills"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Mountain}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "mountains"}}],		  
+          "name": "minecraft:stone_button"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Mountain}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "wooded_mountains"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Mountain}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "gravelly_mountains"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Mountain}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "modified_gravelly_mountains"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Mountain}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "mountain_edge"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Badlands}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "badlands"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Badlands}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "badlands_plateau"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Badlands}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "modified_badlands_plateau"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Badlands}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "wooded_badlands_plateau"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Badlands}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "modified_wooded_badlands_plateau"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Badlands}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "eroded_badlands"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Savanna}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "savanna"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Savanna}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "savanna_plateau"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Savanna}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "shattered_savanna"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Savanna}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "shattered_savanna_plateau"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Snowy}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "snowy_tundra"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Snowy}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "snowy_mountains"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Snowy}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "ice_spikes"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Snowy}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "snowy_beach"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Snowy}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "frozen_river"}}],		  
+          "name": "minecraft:stone_button"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Desert}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "desert"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Desert}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "desert_hills"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Desert}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "desert_lakes"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Plains}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "plains"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Plains}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "sunflower_plains"}}],		  
+          "name": "minecraft:stone_button"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Swamp}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "swamp"}}],		  
+          "name": "minecraft:stone_button"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Swamp}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "swamp_hills"}}],		  
+          "name": "minecraft:stone_button"
+        }	
+      ]
+    }
+  ]
+}
